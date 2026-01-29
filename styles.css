@@ -167,19 +167,13 @@ nav a:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 768px) {
-    .about {
-        padding: 2rem 1.5rem;
-    }
-}
-
 .service-card h3 {
     margin-bottom: 1rem;
     color: #667eea;
 }
 
 footer {
-    background: #333;
+    background: linear-gradient(135deg, #2d2333 0%, #3d2844 100%);
     color: white;
     text-align: center;
     padding: 2rem;
@@ -203,6 +197,13 @@ footer {
 }
 
 /* About page styles */
+
+@media (max-width: 768px) {
+    .about {
+        padding: 2rem 1.5rem;
+    }
+}
+
 .about {
     padding: 4rem 2rem;
     background: #f9f9fb;
@@ -215,6 +216,7 @@ footer {
         font-size: 1.5rem;
     }
 }
+
 .about h2 {
     font-size: 2rem;
     margin: 0 0 1rem;
@@ -236,14 +238,14 @@ footer {
     max-width: 100ch;
 }
 
-.
-
 @media (max-width: 768px) {
     .about .profile {
         flex-direction: column;
         gap: 1.5rem;
     }
-}about .profile {
+}
+
+.about .profile {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
