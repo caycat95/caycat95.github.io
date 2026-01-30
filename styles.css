@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* fix for scrolling issue on desktop */
 :root {
     --header-height: 64px;
 }
